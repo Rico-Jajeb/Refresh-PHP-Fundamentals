@@ -1,0 +1,124 @@
+setup environment/compiler and print out hello world
+declare 2 string variables, 1 is hello, 1 is world, concatenate to say hello world
+Trim whitespace from strings using built in function
+uppercase-all and lowercase-all strings using built in function
+capitalize(uppercase first letter of each word) strings using built in function
+concatenate integer and string without getting an error
+concatenate float and string without getting an error
+contatenate boolean and string without getting an error
+convert array to a comma separated string (array join)
+split string using a delimiter
+split string to an array of (single) characters
+loop through a numeric array preferrably not using manual index increment
+loop through a numeric array printing both the index and the value
+split a name string into a char-array, then capitalize the first letter by overwriting char-array item zero, then reconstruct into a string
+print a defined array, then remove the last item using array pop or equivalent
+print array, and then push a new item using array push or equivalent
+print out unique characters from a string using built-in array-unique function or it's equivalent
+Ask for a input, print out the unique characters on that input
+output a number, and wait for a keypress, then increment the number and print it out, then repeat
+output fibonacci sequence (base 1) on each keypress
+Ask for a number input, print an error when it's not a number using if else
+Ask for a number input, throw an error if it's more than 100 or less than zero
+Ask for a string input for numbers 1 to 10 in words (e.g. one, two...) then output it's translation in tagalog
+(formerly day18) print out unique characters and their count on a string
+Create function: add(x,y) that returns the sum of 2 numbers
+Create functions: subtract(x,y), divide(x,y), multiple(x,y)
+Create a function that will subtract y from x, but only until zero
+Create a function square(x) that returns the square of the number
+Create a function greatest(x,y,z) that returns which of the 3 given numbers are greater (using > or < signs)
+Create a function roll() that generates 2 numbers between 1 to 6
+print out current date/time
+print out current date; then print out current time; using 2 separate function call, but outputting on the same line
+print out current unix timestamp in seconds and milliseconds using built in functions if available
+print out the current date time but with the specific format: Mon Jan 13 2025 14:54:30
+output remaining seconds on the current day
+get remaining milliseconds of current the day
+get remaining microseconds of the current day
+ask for a year input and output if it's a leap year or not using built in functions if possible
+ask for date input and convert to unix timestamp
+print out the date/time on New York City
+add 1 hour interval to current time and output (date/time manipulation [oop??])
+get date yesterday and output (date/time manipulation [substraction and rounding off])
+attempt to list 24 timezones list (numeric array of objects/assoc array)
+Censor the word fuck and dead with constant length asterisk
+Censor bad words but with equal amount asterisk
+Check if string contains '@'
+Check if string contains '.'
+Check if string contains '@' and '.' using regex
+Check if the string matches email pattern .+\@.+\..+
+Check if string contains at least 1 digit
+Check if string contains at least 1 symbol
+Check if string contains at least 1 upper case letter
+Check if string contains at least 1 lowercase letter
+Check if string contains 1 digit, 1 symbol, 1 uppercase letter and 1 lowercase and is more than 10 characters long
+Check if string is 8 digits
+Check if string contains 8 digits (even if there's dash)
+Check if string contains 8 digits (even if there's dash, space or +)
+Check if string contains 8 or 10 digits
+Check if string contains 8 or 10 digits (even if there's dash, space or + parenthesis) (02) 8-555-6677
+Check if string is 8 digits or 11 (09123456789)
+Check if string is 8 digits or 11 or starting with +, plus 12 digits (+63)
+new: Create an array of objects
+new: Sort an array of numbers
+new: Sort an array of strings
+new: Sort an array of objects by a property
+new: Filter array elements that match a condition
+new: Use array map to transform elements
+new: Use array reduce to calculate a sum
+ask for input but only accept numbers
+ask for single digit input, then print out the english word for it, using swith case statement
+ask for input but only accept whole numbers
+ask for input and tell if it's even or odd number
+ask for input but only accept even numbers
+ask for input but only accept odd numbers
+new: Create a basic class with properties
+new: Add methods to a class
+new: Create a class constructor
+new: Create instances of a class
+ask for number input as a radian angle, convert to degree angle
+ask for number input as a degree angle, convert to radian angle
+new: Use try-catch blocks for basic error handling
+new: Create and throw a custom error
+new: Use finally block in error handling
+email validation through regex (hardcoded, no input)
+ask for input and validate as email
+new: Create a phone number validation function
+new: Create a postal/zip code validation function
+new: Implement a simple input masking function
+ask for 2 inputs and then output them 5 seconds later
+new: Use setTimeout to delay execution
+new: Use setInterval to repeat code execution
+new: Clear an interval timer
+new: Create a basic countdown timer
+ask for 2 number inputs as right triangle legs and calculate triangle area
+ask for 2 number inputs as adjacent rectangle legs and calculate the circumference of the rectangle
+ask for 2 number inputs as adjacent rectangle legs and calculate rectangle area
+ask for 2 number inputs as right triangle legs and calculate the hypotenuse
+ask for 2 number inputs as right triangle legs and calculate the circumference
+new: Calculate the area of a circle from radius
+new: Calculate the volume of a sphere
+new: Calculate the area of a trapezoid
+new: Calculate the perimeter of a regular polygon
+ask for 3 number inputs as triangle legs, and determine the type of the triangle (right, iso, scalene)
+new: Check if a set of numbers can form a valid triangle
+new: Calculate the distance between two points in 2D space
+new: Apply the quadratic formula to solve equations
+TOA: ask for 1 degree angle input and 1 number input as theta and adjacent leg of a right triangle, to get length of the opposite leg
+TOA: ask for 1 degree angle input and 1 number input as theta and opposite leg of a right triangle respectively, to get length of the adjacent leg
+TOA: ask for 2 number inputs as the length opposite and adjacent legs relative to one of the corners of a right triangle, to get the angle of that corner.
+new: Create a function that converts between Celsius and Fahrenheit
+new: Calculate BMI from height and weight inputs
+SOH: ask for 2 number inputs as the length of opposite(relative to corner x) and the length of hypotenuse of a right triangle to calculate the angle of corner x(theta)
+SOH: ask for a degree angle input and 1 number input as theta and opposite leg(relative to theta), to calculate the length hypotenuse of a right angle
+SOH: ask for a degree angle input and 1 number input as theta and length of hypotenuse, to calculate the length of the opposite leg(relative to theta)
+new: Create a function to check if a string is a palindrome
+new: Implement a case-insensitive string comparison function
+CAH: Ask for 2 number inputs: the length of the adjacent side (relative to corner x) and the length of the hypotenuse of a right triangle. Calculate the angle of corner x (theta).
+CAH: Ask for a degree angle input (theta) and one number input as the adjacent leg (relative to theta). Calculate the length of the hypotenuse.
+CAH: Ask for a degree angle input (theta) and one number input as the hypotenuse. Use these to calculate the length of the adjacent leg (relative to theta).
+new: Create a simple command-line calculator
+new: Create a function to generate a random password
+new: Check if a number is prime
+new: Find all prime numbers up to n (Sieve of Eratosthenes)
+new: Implement a function to find the GCD of two numbers
