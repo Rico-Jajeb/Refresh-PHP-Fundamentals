@@ -44,10 +44,58 @@ echo strtolower($uppercase);
 
 echo "\n";
 echo "\n";
+echo "*------------- For loop refresh -------------*";
+echo "\n";
+echo "\n";
+
+
+
+for($i = 1; $i <= 5; $i++){
+    for($j = 1; $j <= $i; $j++){
+        echo '*' . ' ';
+       
+    }
+    echo "\n";
+}
+
+echo "\n";
+
+for($i = 1; $i <= 5; $i++){
+   for($j = 5; $j >= $i; $j--){
+        echo '*' . ' ';
+   }
+   echo "\n";
+}
+
+echo "\n";
+echo "\n";
 echo "*------------- 5 -------------*";
 echo "\n";
 echo "\n";
 
-$capitalize = 'hello world this is shit';
+$students = "alice;bob;charlie;diana;ethan";
 
-echo $capitalize;
+$x = explode(";", $students);
+
+foreach($x as &$name){
+  
+ $g = ucfirst($name);
+ 
+ print_r($g ."\n");
+}
+
+
+
+echo "\n";
+echo "\n";
+echo "*------------- 6 -------------*";
+echo "\n";
+echo "\n";
+
+$con1 = 'number';
+$con2 = 101;
+
+echo $con1 . $con2;
+
+
+
