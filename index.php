@@ -75,9 +75,9 @@ echo "\n";
 
 $students = "alice;bob;charlie;diana;ethan";
 
-$x = explode(";", $students);
+$explode = explode(";", $students);
 
-foreach($x as &$name){
+foreach($explode as &$name){
   
  $g = ucfirst($name);
  
@@ -98,4 +98,15 @@ $con2 = 101;
 echo $con1 . $con2;
 
 
+echo "\n";
+echo "\n";
+echo "*------------- 7 -------------*";
+echo "\n";
+echo "\n";
 
+
+$float = 10.12;
+$string = "hello world";
+
+
+echo $float . $string;
