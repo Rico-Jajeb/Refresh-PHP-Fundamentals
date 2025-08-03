@@ -110,3 +110,14 @@ $string = "hello world";
 
 
 echo $float . $string;
+
+echo "\n";
+echo "\n";
+echo "*------------- 8 -------------*";
+echo "\n";
+echo "\n";
+
+$boolean = true;
+$string2 = "hello world";
+
+echo $boolean . $string2;
